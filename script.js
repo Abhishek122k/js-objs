@@ -10,18 +10,23 @@ var studentProfile={
     studentAge : 22,
     cohortName : "Kalvium",
     location : "Mangalore",
-    hobbies : "Playing Basketball",
+    hobbies : ["Playing Basketball","Listening to music"]
 }
 document.write(studentProfile.studentName);
+
 document.write(studentProfile.studentAge);
+
 document.write(studentProfile.cohortName);
+
 document.write(studentProfile.location);
+
 document.write(studentProfile.hobbies);
 
 // Step 2: Add more then one hobby in the student object.
 //Hint: Use Arrays
 
 // Your code goes here
+console.log(studentProfile.hobbies)
 
 // Challenge 1.2: Access the studentName value of the object "studentProfile" using dot "." notation and print the same in console.
 console.log(studentProfile.studentName);
