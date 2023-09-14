@@ -10,7 +10,7 @@ var studentProfile={
     studentAge : 22,
     cohortName : "Kalvium",
     location : "Mangalore",
-    hobbies : ["Playing Basketball","Listening to music"]
+    hobbies : ["Playing Basketball","Listening to music",]
 }
 document.write(studentProfile.studentName);
 
